@@ -1,0 +1,7 @@
+pytest==6.2.5
+pytest-order==1.0.0
+webdriver-manager==3.5.2
+selenium==4.1.0
+PyYAML==5.3.1
+requests==2.24.0
+pytest-html==3.1.1
