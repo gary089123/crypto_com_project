@@ -1,5 +1,20 @@
 # Crypto.com QA challenge
 
+## Description
+The test automation is base on pytest with the customize runner
+
+folder structure :
+
+1. ```libs``` :  folder for test library, ex: web/app pageobject, api module
+2. ```utils``` : folder for common tools
+3. ```tests``` : folder for testcase 
+4. ```runner.py``` : main python file to trigger run
+5. ```testset.yaml``` : configuration for the tests to run
+6. ```testenv.yaml``` : configuration for the testcase enviroment and variable
+
+
+
+
 ## Setup
 
 requirment: python3
@@ -51,3 +66,5 @@ class Test(BaseWebTest):
 ```
 python runner.py
 ```
+
+
